@@ -1,0 +1,198 @@
+/* CSS para landing barra de menú */
+
+.menu {
+    margin: 0px;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(164, 190, 170);
+    width: 100%;
+    border-bottom: solid rgb(71, 49, 40) 1px;
+    user-select: none;
+}
+
+.brand {
+    display: flex;
+    float: right;
+    border-style: none;
+    background-image: linear-gradient(to right, rgb(164, 190, 170), rgb(69, 83, 65));
+
+}
+
+.buttons {
+    display: inline;
+
+}
+
+.buttons a {
+    display: inline-block;
+    padding: 10px;
+    margin: 0px;
+    border: 0px;
+    border-bottom: 0px;
+    border-style: none;
+    color: rgb(71, 49, 40);
+    font-family: Shippori Mincho B1;
+    text-decoration: none;
+    min-width: 120px;
+    text-align: center;
+    transition: 0.5s;
+
+}
+.buttons a:hover{
+
+    cursor: pointer;
+    background-color: rgb(148, 170, 142);
+    box-shadow: 0px 0px 8px rgb(68, 63, 49);
+}
+.buttons a:active {
+
+    transition: 50ms;
+    background-color: rgb(69, 83, 65);
+    box-shadow: 0px 0px 8px rgb(44, 54, 47);
+    color: wheat;
+
+}
+.btn-mobile{
+    display: none;
+}
+
+@media only screen and (max-width: 425px) {
+    .buttons {
+        display: none;
+    }
+    .btn-mobile{
+        display: inline;
+        padding: 12px;
+        border: solid 1px rgb(71, 49, 40);
+        transition: 50ms;
+        background-color: rgb(69, 83, 65);
+        color: wheat;
+
+    }
+}
+.imgcont{
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 50%;
+    align-items: center;
+
+}
+
+
+.selected { 
+    transition: 0.5s;
+    background-color: rgb(148, 170, 142);
+    border-bottom: 0px;
+}
+
+.title {
+    padding: 10px;
+    font-family: Shippori Mincho B1;
+    color: white;
+}
+
+
+
+/* CSS para landing page */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-image: linear-gradient(rgb(148, 170, 142), rgb(255, 255, 255));
+    user-select: none;
+    
+
+}
+
+
+.oraora{
+    margin-top: 17%;
+    margin-bottom: 10px;
+    border: solid 2px;
+    border-color: white;
+    padding: 12px;
+    box-shadow: rgb(84, 102, 79) 0px 0px 60px;
+}
+
+.ora{
+    user-select: text;
+    float: bottom;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    border-top: solid 1px rgb(69, 83, 65);
+    color: rgb(71, 49, 40);
+    font-family: Shippori Mincho B1;
+}
+
+.hero{
+    background-image: linear-gradient(120deg, rgba(187, 197, 184, 0.541) 0%, rgba(45, 59, 49, 0.705) 100%), url("../ORGANIKA/header.jpg");
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+.svg-hero{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.text-inB{
+    height: 10%px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    
+}
+footer{
+    background: rgba(164, 190, 170);
+    color: #fff;
+}
+
+/* ------------------------ */
+.contenedor,
+.wave-contenedor{
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    padding: 0 0 80px 0;
+}
+.contenedor{
+    padding: 80px 0;
+}
+
+.content{
+    margin-left: 7%;
+    margin-right: 7%;
+    background-color: white;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.425) 0px 0px 30px;
+    align-content: center;
+    
+}
