@@ -1,0 +1,33 @@
+1 Menú global *
+
+2 Index: 
+    Estructura general. *
+
+3 Autenticación:
+    Estructura general.
+    Modelos.
+    Script.
+    MongoDB.
+    
+4 Autorización:
+    Permisos.
+    Pantalla de admin.
+    Botones ocultos.
+
+5 Foro: 
+    Estructura general.
+    Botones ocultos
+
+6 Catálogo:
+    Estructura general.
+    Acceso a MongoDB.
+    Edición de administrador, gestión de mercadería.
+
+7 Franquicias.
+    Estructura general.
+
+8 Facturación.
+    Estructura general carrito.
+    Integración con PayPal.
+
+
