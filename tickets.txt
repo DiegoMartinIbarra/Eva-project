@@ -31,3 +31,11 @@
     Integración con PayPal.
 
 
+git, comandos:
+
+git commit -a: commit all, ---> git add archivo + git commit -m "mensaje de actualización"
+
+subir y bajar de github: 
+
+push origin master: sube de origen a maestro
+pull origin master: descarga de origen a maestro
