@@ -74,12 +74,10 @@
     }
 }
 .imgcont{
-    display: block;
+    display: inline;
     margin-left: 10%;
     margin-right: 10%;
     width: 50%;
-    align-items: center;
-
 }
 
 
@@ -175,7 +173,6 @@ footer{
 /* ------------------------ */
 
 .content{
-    position: static;
     align-self: center;
     margin-left: 7%;
     margin-right: 7%;
@@ -184,4 +181,5 @@ footer{
     margin-top: 30px;
     border-radius: 7px;
     box-shadow: rgba(0, 0, 0, 0.425) 0px 0px 30px;
+    text-align: center;
 }

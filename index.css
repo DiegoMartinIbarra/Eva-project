@@ -41,21 +41,21 @@
     transition: 0.5s;
 
 }
-.buttons a:hover{
 
+.buttons a:hover {
     cursor: pointer;
     background-color: rgb(148, 170, 142);
     box-shadow: 0px 0px 8px rgb(68, 63, 49);
 }
-.buttons a:active {
 
+.buttons a:active {
     transition: 50ms;
     background-color: rgb(69, 83, 65);
     box-shadow: 0px 0px 8px rgb(44, 54, 47);
     color: wheat;
-
 }
-.btn-mobile{
+
+.btn-mobile {
     display: none;
 }
 
@@ -63,7 +63,8 @@
     .buttons {
         display: none;
     }
-    .btn-mobile{
+
+    .btn-mobile {
         display: inline;
         padding: 12px;
         border: solid 1px rgb(71, 49, 40);
@@ -73,8 +74,9 @@
 
     }
 }
-.imgcont{
-    display: block;
+
+.imgcont {
+    display: inline-block;
     margin-left: 10%;
     margin-right: 10%;
     width: 50%;
@@ -83,7 +85,7 @@
 }
 
 
-.selected { 
+.selected {
     transition: 0.5s;
     background-color: rgb(148, 170, 142);
     border-bottom: 0px;
@@ -101,26 +103,26 @@
 
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     font-family: 'Raleway', sans-serif;
     background-image: linear-gradient(rgb(148, 170, 142), rgb(255, 255, 255));
     user-select: none;
-    
+
 
 }
 
 
-.oraora{
+.oraora {
     margin-top: 25%;
     margin-bottom: 10px;
     border: solid 2px;
@@ -129,7 +131,7 @@ body{
     box-shadow: rgb(84, 102, 79) 0px 0px 60px;
 }
 
-.ora{
+.ora {
     user-select: text;
     float: bottom;
     position: fixed;
@@ -140,7 +142,7 @@ body{
     font-family: Shippori Mincho B1;
 }
 
-.hero{
+.hero {
     background-image: linear-gradient(120deg, rgba(187, 197, 184, 0.541) 0%, rgba(45, 59, 49, 0.705) 100%), url("./ORGANIKA/header.jpg");
     width: 100%;
     height: 350px;
@@ -151,13 +153,15 @@ body{
     position: relative;
     overflow: hidden;
 }
-.svg-hero{
+
+.svg-hero {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
 }
-.text-inB{
+
+.text-inB {
     height: 250px;
     color: #fff;
     display: flex;
@@ -167,7 +171,8 @@ body{
     align-items: center;
     font-size: 27px;
 }
-.butom{
+
+.butom {
     display: inline-block;
     text-decoration: none;
     padding: 10px 13px;
@@ -178,11 +183,13 @@ body{
     transition: 0.5s;
 
 }
-.butom:hover{
+
+.butom:hover {
     cursor: pointer;
     background-color: rgb(148, 170, 142);
     box-shadow: 0px 0px 8px rgb(68, 63, 49);
 }
+
 .butom:active {
     transition: 50ms;
     background-color: rgb(69, 83, 65);
@@ -190,25 +197,27 @@ body{
     color: wheat;
 
 }
-footer{
+
+footer {
     background: rgba(164, 190, 170);
     color: #fff;
 }
 
 /* ------------------------ */
 .contenedor,
-.wave-contenedor{
+.wave-contenedor {
     width: 90%;
     max-width: 1000px;
     overflow: hidden;
     margin: auto;
     padding: 0 0 80px 0;
 }
-.contenedor{
+
+.contenedor {
     padding: 80px 0;
 }
 
-.content{
+.content {
     margin-left: 7%;
     margin-right: 7%;
     background-color: white;
@@ -216,6 +225,6 @@ footer{
     margin-top: 30px;
     border-radius: 7px;
     box-shadow: rgba(0, 0, 0, 0.425) 0px 0px 30px;
-    align-content: center;
-    
+    text-align: center;
+
 }
