@@ -33,6 +33,8 @@
 
 git, comandos:
 
+git add --> selecciona los elementos a commitear
+
 git commit -a: commit all, ---> git add archivo + git commit -m "mensaje de actualización"
 
 subir y bajar de github: 
