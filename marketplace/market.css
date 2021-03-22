@@ -206,7 +206,7 @@ footer {
 /* ------------------------ */
 .contenedor,
 .wave-contenedor {
-    width: 90%;
+    width: 100%;
     max-width: 1000px;
     overflow: hidden;
     margin: auto;
@@ -234,21 +234,21 @@ footer {
 .content-cards {
     display: flex;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 .card {
     width: 200px;
     text-align: center;
-    height: 350px;
+    height: 300px;
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, .5);
     transform: scale(1);
-    transition: transform 0.5s;
-    margin: 10px;
+    transition: 0.5s;
+    margin: 15px;
     font-family: Shippori Mincho B1;
     border: rgb(71, 49, 40) 1px;
-    border-radius: 7px;
+    border-radius: 0px;
     background-color: rgba(164, 190, 170, 0.486);
     color: white;
 
@@ -257,6 +257,7 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    opacity: 0.95;
 
     position: relative;
     overflow: hidden;
@@ -264,7 +265,7 @@ footer {
 }
 
 .card:hover {
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.719);
     transform: scale(1.03);
     cursor: pointer;
 }
@@ -304,7 +305,7 @@ footer {
     cursor: pointer;
 }
 
-.card img {
+/* .card img {
     max-width: 300px;
     max-height: 300px;
     background-attachment: fixed;
@@ -320,7 +321,7 @@ footer {
         object-position: center center;
     }
 }
- */
+ */ */
 .card img{
     height: 160px;
     width: 160px;
@@ -329,15 +330,14 @@ footer {
 .cta {
     display: inline-block;
 /*     position: absolute; */
-    bottom: 10px;
-    border-radius: 7px;
+    bottom: 7px;
+    border-radius: 0px;
 
 
     text-decoration: none;
     padding: 5px;
     background: rgba(164, 190, 170, 0.644);
     color: white;
-    margin-top: 20px;
     border: solid 1px white;
     transition: 0.5s;
 
@@ -362,8 +362,8 @@ footer {
     bottom: 10px;
     background-color: white;
     margin: 10px;
-    background-color: rgba(148, 170, 142, 0.705);
+    background-color: rgba(148, 170, 142, 0.493);
 /*     border: solid 1px; */
     padding: 7px;
-    border-radius: 7px;
+    border-radius: 0px;
 }
